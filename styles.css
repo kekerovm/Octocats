@@ -1,0 +1,31 @@
+ul {
+  padding: 0;
+}
+
+.octodex {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  align-content: space-between;
+}
+
+.octocat > a > img {
+  width: 300px;
+  border: 2px solid #ccc;
+}
+
+.authors img {
+  width: 20px;
+  height: 20px;
+}
+.image-footer {
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  list-style: none;
+}
+
+.image-number::before {
+  content: "#";
+}
