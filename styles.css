@@ -4,16 +4,22 @@ ul {
 
 .octodex {
   display: flex;
-  /* align-items: center; */
   justify-content: center;
   align-content: space-between;
 }
-
+.image-caption {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: arial;
+  font-weight: bold;
+}
 .octocat > a > img {
   width: 300px;
   border: 2px solid #ccc;
+  position: relative;
+  margin: 10px;
 }
-
 .authors img {
   width: 20px;
   height: 20px;
@@ -21,11 +27,12 @@ ul {
 .image-footer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 ul {
   list-style: none;
 }
-
 .image-number::before {
   content: "#";
+  align-content: flex-start;
 }
